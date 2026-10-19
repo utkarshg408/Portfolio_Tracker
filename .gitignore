@@ -24,8 +24,12 @@ profile.cov
 go.work
 go.work.sum
 
-# env file
+# Environment and local configuration
 .env
+*.local
+
+# Application build output
+bin/
 
 # Editor/IDE
 # .idea/
